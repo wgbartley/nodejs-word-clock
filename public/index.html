@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wordclock</title>
+
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/wordclock.js"></script>
+<script type="text/javascript" src="js/async.min.js"></script>
+<script type="text/javascript" src="js/spectrum.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/spectrum.min.css">
+
+</head>
+<body>
+
+<div id="left">
+	<fieldset>
+		<legend>
+			<input type="radio" id="radio-color" name="radio-select" value="color" />
+			<label for="radio-color">Solid Color</label>
+		</legend>
+
+		<div id="select-color">
+			<input id="color" type="text" class="basic" value="" />
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>
+			<input type="radio" id="radio-rainbow" name="radio-select" value="rainbow" />
+			<label for="radio-rainbow">Rainbow</label>
+		</legend>
+
+		<div id="select-rainbow">
+			Speed:
+			<input id="rainbow_delay" type="range" min="50" max="1000" step="50" value="50" />
+			<span class="rainbow-delay">~</span>
+		</div>
+	</fieldset>
+</div>
+
+<table>
+<tbody>
+</tbody>
+</table>
+
+<div id="right"></div>
+
+</body>
+</html>

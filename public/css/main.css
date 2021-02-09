@@ -1,0 +1,81 @@
+html,
+body {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	color: #fff;
+	font-family: sans-serif;
+	background-color: #999;
+
+	margin: 0;
+	padding: 0;
+
+	overflow: hidden;
+}
+
+
+body {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+@font-face {
+	font-family: ModeNine;
+	src: url(/fonts/MODENINE.TTF);
+	font-weight: 400;
+}
+
+
+table {
+	background-color: #000;
+
+	font-family: ModeNine;
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 100vmin;
+	height: 100vmin;
+
+	border: 10px solid #fff;
+
+	background-color: rgba(0, 0, 0, 0.95);
+}
+
+table tbody tr td {
+	font-size: 6vmin;
+	color: #333;
+}
+
+
+#left {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+
+	color: #000000;
+	font-size: 110%;
+}
+
+#left input[type="text"] {
+	font-size: 110%;
+}
+
+
+fieldset {
+	margin-bottom: 1em;
+	border: 1px solid white;
+}
+
+fieldset legend {
+	font-weight: bold;
+}
